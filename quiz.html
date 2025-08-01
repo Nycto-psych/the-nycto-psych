@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+     <link href="style.css" rel="stylesheet" type="text/css">
+<style>
+      body {
+            background-color: lightblue;
+            color: #333;
+            padding: 30px;
+            line-height: 1;
+        }
+
+        h1 {
+            text-align: center;
+            font-variant: small-caps;
+            color: rgb(47, 112, 133);
+            margin-bottom: 20px;
+            text-decoration: underline;
+        }
+
+        form {
+            max-width: 900px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px;
+        }
+
+        h2 {
+            color:rgb(47, 112, 133); 
+            text-align: center;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        input[type="text"], 
+        input[type="number"] {
+            width: 500px;
+            padding: 7px;
+            margin-bottom: 12px;
+            border-radius: 5pxpx;
+            border: 1px solid #ccc;
+        }
+
+        input[type="radio"] {
+            margin: 5px;
+        }
+
+        label {
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            background: rgb(47, 112, 133);
+            color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background: #322a5d;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Quick Test</h1>
+    <form>
+
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name"><br><BR>
+
+         <label for="age">Your Age:</label><br>
+         <input type="number" id="age" name="age"><br><Br>
+
+            <label for="email">Email:</label><BR>
+            <input type="text" id="email" name="email"><br><BR>
+
+         <h2>Are You Emotionally Burned-out?</h2>
+
+         <p>1. You feel numb or emotionally flat even during moments that should make you happy.</p>
+         <input type="radio" id="q1-yes" name="q1" value="yes">
+         <label for="q1-yes">Yes</label>
+         <input type="radio" id="q1-no" name="q1" value="no">
+         <label for="q1-no">No</label><br><br>
+
+         <p>2. You overthink constantly and your mind never really feels “off.”</p>
+         <input type="radio" id="q2-yes" name="q2" value="yes">
+         <label for="q2-yes">Yes</label>
+         <input type="radio" id="q2-no" name="q2" value="no">
+         <label for="q2-no">No</label><br><BR>
+
+          <p>3. You feel like even small tasks are exhausting or overwhelming.</p>
+          <input type="radio" id="q3-yes" name="q3" value="yes">
+          <label for="q3-yes">Yes</label>
+          <input type="radio" id="q3-no" name="q3" value="no">
+          <label for="q3-no">No</label><br><br>
+
+          <p>4. You keep procrastinating even when you know it's making things worse.</p>
+          <input type="radio" id="q4-yes" name="q4" value="yes">
+          <label for="q4-yes">Yes</label>
+          <input type="radio" id="q4-no" name="q4" value="no">
+          <label for="q4-no">No</label><br><Br>
+
+         <p>5.You fantasize about disappearing, running away, or shutting the world out.</p>
+         <input type="radio" id="q5-yes" name="q5" value="yes">
+         <label for="q5-yes">Yes</label>
+         <input type="radio" id="q5-no" name="q5" value="no">
+         <label for="q5-no">No</label> <br><br>
+
+         <input type="submit" value="submit">
+         </form>
+         </body>
+         </html>
